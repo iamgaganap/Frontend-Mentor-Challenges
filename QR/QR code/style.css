@@ -1,0 +1,40 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: #D5E1EF;
+}
+
+.flex-container>div {
+    width: 288px;
+    height: auto;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 12px;
+    box-sizing: border-box;
+    box-shadow: #3685FF;
+    border-radius: 10px;
+    margin: 25px;
+    float: left;
+}
+
+.flex-container img {
+    width: 255px;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #1F314F;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700rem;
+}
+
+p {
+    color: #7D889E;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400rem;
+    font-size: 15px;
+}
