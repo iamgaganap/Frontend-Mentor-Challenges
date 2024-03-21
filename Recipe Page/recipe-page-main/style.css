@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(30, 54%, 90%);
+    padding: 10px;
+
+}
+
+.flex-container>div {
+    width: 510px;
+    height: auto;
+    display: block;
+    justify-content: center;
+    background-color: white;
+    padding: 25px;
+    box-shadow: #3685FF;
+    border-radius: 12px;
+    margin: 5px;
+    float: left;
+}
+
+.flex-container img {
+    width: 510px;
+    border-radius: 10px;
+}
+
+.heading h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: rgb(52, 50, 34);
+    margin-bottom: 10px;
+}
+
+.heading p {
+    font-family: "outfit", san serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: grey;
+    line-height: .5cm;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    margin: 16px 0px;
+    padding: 5px;
+    padding-top: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.prep-time h5 {
+    font-family: "outfit", san serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 16px;
+    color: hsl(332, 51%, 32%);
+}
+
+.prep-time p {
+    font-family: "outfit", san serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(24, 5%, 18%);
+}
+
+.ingredients h3 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients ul {
+    font-family: "outfit", san serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: grey;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.instruction h3 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+.instruction ol {
+    font-family: "outfit", san serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.instruction p {
+    color: grey;
+    line-height: .5cm;
+}
+
+.instruction b {
+    color: hsl(30, 10%, 34%);
+}
+
+.instruction ol li {
+    padding-left: 10px;
+}
+
+.nutrition h3 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition p {
+    font-family: "outfit", san serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: grey;
+}
+
+table {
+    font-family: "outfit", san serif;
+    font-weight: 500;
+    font-size: 14px;
+    width: 100%;
+    color: grey;
+    padding-left: 10px;
+}
+
+.nutrition #value {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+td {
+    border-bottom: 0px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+hr {
+    border-top: 1px grey;
+}
